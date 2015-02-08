@@ -6,9 +6,9 @@ article,aside,figure,figcaption,hgroup,footer,header,nav,section,video,object{di
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 
 /*TYPOGRAPHY*/
-h1 {font:normal 2.3em/1.2 'ChunkFiveRegular';color:#999;padding:24px 0 44px;-webkit-text-shadow:0 1px 0 rgba(238, 238, 238, 1);-moz-text-shadow:0 1px 0 rgba(238, 238, 238, 1);text-shadow:0 1px 0 rgba(238, 238, 238, 1);}
-h2 {font:normal 1.8em/1.2 'ChunkFiveRegular';color:#41AFAA;padding:0 0 13px;}
-h3 {font:normal 1.7em 'ChunkFiveRegular';color:#999;padding:0 0 17px;}
+h1 {font:normal 2.3em/1.2 'Lato', 'Helvetica', sans-serif;color:#999;padding:24px 0 44px;-webkit-text-shadow:0 1px 0 rgba(238, 238, 238, 1);-moz-text-shadow:0 1px 0 rgba(238, 238, 238, 1);text-shadow:0 1px 0 rgba(238, 238, 238, 1);}
+h2 {font:normal 1.8em/1.2 'Lato', 'Helvetica', sans-serif;color:#41AFAA;padding:0 0 13px;}
+h3 {font:normal 1.7em 'Lato', 'Helvetica', sans-serif;color:#999;padding:0 0 17px;}
 h4 {font:normal 1.6em 'OpenSansSemibold';letter-spacing:-0.03em;padding:0 0 15px;}
 h5 {font:normal 1.5em 'OpenSansBold';letter-spacing:-0.1px;color:#3F3F3F;}
 h6 {font:normal 1.3em 'OpenSansSemibold';color:#333;}
@@ -636,19 +636,41 @@ label.error	{color:red !important;padding:5px 0 0;}
 #form6 .column	{height:180px;}
 
 .forms	{float:left;width:76.5%;}
-.main-search .f-item 					{float:left;display:block;width:100%;padding:0 0 6px;}
-.main-search .f-item input[type="text"] 	{float:left;display:block;-webkit-box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);-moz-box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);}
-.main-search .f-item label 				{font-size:1.3em;padding:0 0 8px;display:inline-block;width:100%;font-family:'OpenSansRegular';white-space:nowrap;}
-.main-search .f-item .selector			{width:100% !important;}
-.main-search .f-item .selector span		{width:92% !important;background-position:97% 8px;padding:0 4%;}
-.main-search .f-item select				{width:100%;}
-	
-.main-search .radios			{width:22%;background:none;padding:0;margin:0 0 0 1.5%;}
-.main-search .radios .f-item 	{width:125px;}
-.main-search .radios label 	{padding:0 0 0 5px;color:#999;line-height:20px;width:100px;}
-.main-search .active label		{color:#666;}
+.main-search .f-item {
+	float:left;
+	display:block;
+	width:100%;
+	padding:0 0 6px;}
 
-.main-search .twins .f-item 				{width:47%;margin:0 5% 0 0;}
+.main-search .f-item input[type="text"] 	
+{float:left;display:block;
+	-webkit-box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);
+	-moz-box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);
+	box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);}
+
+.main-search .f-item label 				
+{font-size:1.5em;
+	padding:0 0 8px;
+	display:inline-block;
+	width:100%;
+	font-family:'Lato';
+	white-space:nowrap;}
+
+.main-search .f-item .selector			
+{width:100% !important;}
+
+.main-search .f-item .selector span		
+{width:92% !important;
+	background-position:97% 8px;
+	padding:0 4%;}
+
+.main-search .f-item select				
+{width:100%;}
+	
+
+.main-search .twins .f-item 				
+		{width:47%;
+		margin:0 5% 0 0;}
 .main-search .twins .f-item.last		 	{margin:0;}
 .main-search .twins .selector span		{width:80% !important;background-position:93% 8px;padding:0 10%;}
 .main-search .twins.last .f-item			{width:45%;}
@@ -657,10 +679,9 @@ label.error	{color:red !important;padding:5px 0 0;}
 
 .main-search .two-childs .datepicker-wrap		{width:47%;margin:0 5% 0 0;float:left;}
 .main-search .two-childs .selector				{width:46% !important;float:left;}
-.main-search .two-childs .selector span			{padding:0 10%;width:80% !important;background-position:93% 8px;}
+.main-search .two-childs .selector span			{padding:0 10%;width:0% !important;background-position:93% 8px;}
 
-.datepicker-wrap 				{position:relative;}
-.ui-datepicker-trigger	{position:absolute;top:8px;right:8px;}
+
 
 .spinner 				{position:relative;}
 .main-search .f-item  .ui-spinner-input		{padding:6px 10%;width:80%;}

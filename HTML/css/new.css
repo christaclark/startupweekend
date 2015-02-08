@@ -1,0 +1,91 @@
+/*MAIN SEARCH*/
+.main-search {
+	margin:-250px auto 45px;
+	position:relative;z-index:999;
+	width: 100%;max-width: 1140px;
+	text-align:left;height:202px;}
+
+.main-search form {
+	position:relative;
+	width:100%;display:inline-block;
+	padding:20px 0 10px;border:1px solid #fff;
+	box-shadow:0 0 3px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.2);
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );}
+.main-search h4			{font:normal 1.6em 'OpenSansRegular';letter-spacing:0;}
+.main-search h4 span {
+	font-family:'Lato', 'Helvetica', Sans-serif;
+	color:#3FBFB8;}
+
+.forms	{
+	float:left;
+	width:76.5%;}
+.main-search .f-item {
+	float:left;
+	display:block;
+	width:100%;
+	padding:0 0 6px;}
+
+.main-search .f-item input[type="text"] 	
+{float:left;display:block;
+	-webkit-box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);
+	-moz-box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);
+	box-shadow:0 1px 1px rgba(204, 204, 204, 1) inset, 0 1px 0 rgba(255,255,255,1);}
+
+.main-search .f-item label 				
+{font-size:1.3em;padding:0 0 8px;
+	display:inline-block;width:100%;
+	font-family:'OpenSansRegular';
+	white-space:nowrap;}
+
+.main-search .f-item .selector			
+{width:100% !important;}
+
+.main-search .f-item .selector span		
+{width:92% !important;background-position:97% 8px;
+	padding:0 4%;}
+
+.main-search .f-item select				
+{width:100%;}
+	
+.main-search .radios			{width:22%;background:none;padding:0;margin:0 0 0 1.5%;}
+.main-search .radios .f-item 	{width:125px;}
+.main-search .radios label 	{padding:0 0 0 5px;color:#999;line-height:20px;width:100px;}
+.main-search .active label		{color:#666;}
+
+.main-search .twins .f-item 				{width:47%;margin:0 5% 0 0;}
+.main-search .twins .f-item.last		 	{margin:0;}
+.main-search .twins .selector span		{width:80% !important;background-position:93% 8px;padding:0 10%;}
+.main-search .twins.last .f-item			{width:45%;}
+
+.main-search .triplets .f-item 		{width:28%;margin:0 5% 0 0;}
+
+.main-search .two-childs .datepicker-wrap		{width:47%;margin:0 5% 0 0;float:left;}
+.main-search .two-childs .selector				{width:46% !important;float:left;}
+.main-search .two-childs .selector span			{padding:0 10%;width:80% !important;background-position:93% 8px;}
+
+.datepicker-wrap 				{position:relative;}
+.ui-datepicker-trigger	{position:absolute;top:8px;right:8px;}
+
+.spinner 				{position:relative;}
+.main-search .f-item  .ui-spinner-input		{padding:6px 10%;width:80%;}
+.ui-icon-triangle-1-n	{position:absolute;top:35px;right:8px;background:url(../images/ico/spinner.png) 0 0 no-repeat;width:13px;height:8px;overflow:hidden;text-indent:-99999px;display:inline-block;cursor:pointer;}
+.ui-icon-triangle-1-s	{position:absolute;top:43px;right:8px;background:url(../images/ico/spinner.png) 0 -9px no-repeat;width:13px;height:8px;overflow:hidden;text-indent:-99999px;display:inline-block;cursor:pointer;}
+
+.spinner.small		{width:43% !important;}
+
+.search-submit 			{position:absolute;left:478px;bottom:-5px;background:url(../images/bgr/search-button.png) 0 0 no-repeat;width:204px;height:34px;border:none;font:normal 1.2em/34px 'OpenSansBold';text-transform:uppercase;color:#fff;-webkit-text-shadow:0 -1px 0 rgba(0,0,0,0.2);-moz-text-shadow:0 -1px 0 rgba(0,0,0,0.2);text-shadow:0 -1px 0 rgba(0,0,0,0.2);}
+.search-submit:hover 	{background-position:0 -34px;}
+
+/*CONTACT FORM*/
+aside form			{padding:0 0 15px;}
+aside .f-item		{padding:0 0 15px;float:left;width:100%;}
+aside .f-item label	{float:left;width:100%;padding:0 0 5px;}
+aside  input[type="submit"]	{padding:0;width:80px;margin:5px 0 0;}
+	
+.phone-green 	{background:url(../images/ico/phone-green.jpg) 2px 0 no-repeat;font-family:'OpenSansSemibold';padding:1px 0 1px 24px;}	
+.email-green 	{background:url(../images/ico/email-green.jpg) 0 5px no-repeat;font-family:'OpenSansSemibold';padding:0 0 0 24px;margin:5px 0 15px;}	
+.email-green a 	{text-decoration:none;}
