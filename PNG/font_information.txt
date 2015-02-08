@@ -1,0 +1,10 @@
+Free Fonts used:
+
+Open Sans: http://www.fontsquirrel.com/fonts/open-sans
+ChunkFive: http://www.fontsquirrel.com/fonts/ChunkFive
+
+Turkish users should use Bevan as the ChunkFive alternative.
+Bevan: http://www.fontsquirrel.com/fonts/bevan
+
+Cyrillic use should use Sreda (registration required).
+Sreda: http://www.myfonts.com/fonts/glen-jan/sreda/
